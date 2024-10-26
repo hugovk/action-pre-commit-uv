@@ -8,7 +8,7 @@ inputs:
   extra_uv_args:
     description: options to pass to uv run
     required: false
-    default: '--'
+    default: '--python 3'
 runs:
   using: composite
   steps:

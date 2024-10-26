@@ -1,7 +1,4 @@
-on:
-  pull_request:
-  push:
-    branches: [main, test-me-*]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   main:
